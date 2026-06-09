@@ -13,7 +13,7 @@ export default function App() {
 
   const loadVideo = async () => {
 
-    const res = await fetch("http://localhost:5000/load", {
+    const res = await fetch("https://youtube-u0er.onrender.com/load", {
       method: "POST",
       headers: {
         "Content-Type":"application/json"
